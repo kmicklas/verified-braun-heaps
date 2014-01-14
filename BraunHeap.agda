@@ -1,10 +1,10 @@
 open import Level
-open import Ordering using (reflexive)
+open import Ordering
 
 module BraunHeap
   {i}
   {A : Set i}
-  (o : Ordering.Ordering A)
+  (o : Ordering A)
   where
 
 open Ordering.Ordering o
